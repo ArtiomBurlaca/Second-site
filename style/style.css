@@ -207,7 +207,7 @@ margin-left: 258px;
 
 }
 
-.bottom{
+.botton{
   position: relative
   display: flex ;
   margin-top: 600px;
@@ -283,7 +283,7 @@ padding-bottom: 100px;
 }
 
 .aranje{
-  padding-left: 250px;;
+  padding-left: 100px;;
   display: grid;
   grid-template-columns: repeat(3,400px);
   justify-content: center;
@@ -341,4 +341,87 @@ section div figure button {
   position: absolute;
   right:5px;
   bottom:5px
+}
+
+.comments{
+  display: flex;
+  margin-left: 100px;
+}
+
+.box{
+  border:1px solid rgb(142, 165, 222);
+  border-radius:2% 70px;
+  position: relative;
+  margin: 14px;
+  padding: 5px;
+  width: 450px;
+  height: 180px;
+}
+
+.starbar{
+  display: flex;
+
+}
+
+.avatar{
+  padding-left: 15px;
+  display: flex;
+}
+
+.av{
+border-radius: 50%;
+}
+
+#previous{
+  position: absolute;
+  top: 190px;
+  left: 20px;
+
+}
+
+#next{
+  position: absolute;
+  top:190px;
+  left:406px;
+
+}
+
+footer{
+  background-color:rgb(235, 231, 231)
+}
+
+footer article div p{
+  width: 600px;
+}
+
+.mail{
+  position: relative;
+display: flex;
+justify-content: space-between;
+padding-left: 25px;
+
+}
+.search{
+  position: absolute;
+  top:46px;
+  left:600px;
+  width: 300px;
+  height: 30px;
+}
+
+.subscribe{
+display:flex
+}
+
+ul{list-style: none;}
+
+.help{
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.first{
+  weight:600px
+
 }
