@@ -168,24 +168,8 @@ color:#f11010bf;
 
 }
 
-.top{
-  position: absolute;
-  display: flex;
 
-}
-
-
-.images{
-  margin-top: 65px;
-  margin-left: 150px;
-
-}
-
-.text-explane{
-margin-top: 165px;
-margin-left: 258px;
-
-}
+/* 
 
 .title{
   font-size: 36px;
@@ -207,17 +191,9 @@ margin-left: 258px;
 
 }
 
-.botton{
-  position: relative
-  display: flex ;
-  margin-top: 600px;
-}
 
-.grup{
 
- margin-left: 150px;
- 
-}
+
 
 .text-explan{
   font-size: 36px;
@@ -233,8 +209,27 @@ margin-left: 258px;
 .image{
   
 margin-top: -283px;
-margin-left: 978px;
+margin-left: 978px; 
+*/
 
+.element{
+ 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  align-items:center;
+  place-items: center ;
+}
+
+.paragraf{
+  font-size: 24px;
+  font-weight: 400;
+  
+}
+
+.strong{
+   font-size: 36px;
+  font-weight: 800;
 }
 
 .costum{
@@ -425,3 +420,16 @@ ul{list-style: none;}
   weight:600px
 
 }
+
+.footerr{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.map{
+  grid-area: 1 / 2 ;
+  justify-self: end;
+  margin-right: 100px;
+  
+}
+
